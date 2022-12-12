@@ -2,11 +2,12 @@
 
 /**
  * main - Entry point
- * @void: null value
+ * @void: Null value
  *
  * Description: Print numbers from 00 to 99
- * Returns: zero value
+ * Returns: Zero value
  */
+
 
 int main(void)
 {
