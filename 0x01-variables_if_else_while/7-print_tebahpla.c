@@ -4,17 +4,16 @@
  * main - entry point
  * @void: null value
  *
- * Description: print numbers from 0 to 9
+ * Description: print alphabet in reverse
  * Return: zero value
  */
 
 int main(void)
 {
-	int n;
+	char n;
 
-	for (n = '0'; n <= '9'; n++)
+	for (n = 'z'; n >= 'a'; n--)
 		putchar(n);
 	putchar('\n');
 	return (0);
 }
-
