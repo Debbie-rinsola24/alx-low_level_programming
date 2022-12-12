@@ -5,8 +5,8 @@
  * @void: Null value
  *
  * Description: print numbers from 0 to 9 separated by comma and space
- * Return: zero value
- */ 
+ * Return: Zero value
+ */
 
 int main(void)
 {
