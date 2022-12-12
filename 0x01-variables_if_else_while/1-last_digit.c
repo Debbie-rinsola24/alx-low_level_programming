@@ -7,9 +7,8 @@
  * main - Entry point
  * @void: null value
  *
- * Discripion: check the last digit of the number
- *
- * Return: zero value to successful 
+ * Description: check the last digit of the number
+ * Return: Zero value to successful
  */
 
 int main(void)
