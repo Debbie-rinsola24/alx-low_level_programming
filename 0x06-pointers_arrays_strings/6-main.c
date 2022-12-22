@@ -10,7 +10,9 @@
 int main(void)
 {
 
-char str[] = "Expect the best. Prepare for the worst.Capitalize on what comes.\nhello world! hello-world0123456hello world\thello world.hello world";
+char str[] = "Expect the best.
+	'\n'Prepare for the worst. Capitalize on what comes.
+	'\n'hello world! hello-world0123456hello world\thello world.hello world";
 	char *ptr;
 
 
