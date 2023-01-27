@@ -1,5 +1,25 @@
-#ifndef MAIN_H
-#define MAIN_H
+#ifndef _LISTS_
+#define _LISTS_
+
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+/**
+ * struct list_s - singly linked list
+ * @str: string - (malloc'ed string)
+ * @len: lenght of the string
+ * @next: points to the next node
+ *
+ * Description: singly linked list node structure
+ * for Hlberton project
+ */
+
+typedef struct list_s
+{
+	char *str;
+	unsigned int len;
+	struct list_s *next;
+} list_t;
 
 size_t print_list(const list_t *h);
 size_t list_len(const list_t *h);
